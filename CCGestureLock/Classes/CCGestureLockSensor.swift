@@ -5,7 +5,7 @@
 //  Copyright (c) 2017 Hsuan-Chih Chuang. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public class CCGestureLockSensor {
     

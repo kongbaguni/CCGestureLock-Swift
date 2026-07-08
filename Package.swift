@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "CCGestureLock",
     platforms: [
-        .iOS(.v8)
+        .iOS(.v12)
     ],
     products: [
         .library(

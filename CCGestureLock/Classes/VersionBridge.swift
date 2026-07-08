@@ -5,7 +5,7 @@
 //  Created by Hsuan-Chih Chuang on 2018/10/12.
 //
 
-import Foundation
+import UIKit
 
 #if swift(>=4.2)
 public typealias UICollectionViewScrollPosition = UICollectionView.ScrollPosition
