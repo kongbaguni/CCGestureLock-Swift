@@ -38,13 +38,13 @@ You can add `CCGestureLock` via Swift Package Manager.
 
 - Xcode: `File > Add Packages...` and enter the repository URL:
 
-    `https://github.com/hsuanchih/CCGestureLock-Swift.git` and choose a version requirement.
+    `https://github.com/kongbaguni/CCGestureLock-Swift.git` and choose a version requirement.
 
 - Or add to your `Package.swift` dependencies:
 
 ```swift
 dependencies: [
-        .package(url: "https://github.com/hsuanchih/CCGestureLock-Swift.git", from: "0.1.4")
+        .package(url: "https://github.com/kongbaguni/CCGestureLock-Swift.git", from: "0.1.5")
 ],
 targets: [
         .target(name: "YourApp", dependencies: ["CCGestureLock"]) 
