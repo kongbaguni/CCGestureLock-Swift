@@ -32,6 +32,33 @@ it, simply add the following line to your Podfile:
 pod "CCGestureLock"
 ```
 
+## Swift Package Manager (SPM)
+
+You can add `CCGestureLock` via Swift Package Manager.
+
+- Xcode: `File > Add Packages...` and enter the repository URL:
+
+    `https://github.com/hsuanchih/CCGestureLock-Swift.git` and choose a version requirement.
+
+- Or add to your `Package.swift` dependencies:
+
+```swift
+dependencies: [
+        .package(url: "https://github.com/hsuanchih/CCGestureLock-Swift.git", from: "0.1.4")
+],
+targets: [
+        .target(name: "YourApp", dependencies: ["CCGestureLock"]) 
+]
+```
+
+After adding the package, import it where needed:
+
+```swift
+import CCGestureLock
+```
+
+Resources in `CCGestureLock/Assets` are processed by the package and included automatically.
+
 ## Usage
 ### Adding Gesture Lock
 * Add CCGestureLock instance to your view (OR, in Interface Builder, set an UIView's Custom Class to CCGestureLock).
